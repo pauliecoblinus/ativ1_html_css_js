@@ -1,0 +1,320 @@
+<html>
+<!-- introduzir uma folha de projeto html, é a tag principal da sua página -->
+
+<!--ALERT!
+ Uninove Vergueiro Turma 1020A Noite Paulo Cobucci de Vasconcelos RA 417 110 699 Desenvolvimento Web - TADS -->
+
+
+  <head>
+	<!-- é a base da página, onde terá informações de título e metadados que indicam as características do seu site, como idioma, dados para leitura do mecanismo de busca, descrição do site, informações para uso das redes sociais etc -->
+			
+			<title> Ferdinand Redfield Stark Curriculo </title>
+			<!-- Título do seu site usado como nome da aba do navegador e usado para fins de pesquisa pelo mecanismo de busca. É a apresentação dessa página nas buscas como em "uol o melhor conteudo" -->
+			
+
+	<!-- inicio das tags de meta de informação sobre a página utilizadas pelo navegador -->
+
+		 <meta http-equiv="refresh" content="240" /> 
+		 <!-- nesse caso, é a atualização da página. está configurada para recarregar a cada n segundos  content=" n " -->
+		
+		<meta http-equiv="pragma" content="no-cache, no-store" />
+		<!-- aqui é indicado que toda vez que carregar essa página, será um novo cache. Antigamente demorava mais se deixasse em no cache, no store. hoje as conexões são mais rápidas e os compudadores melhores, nem faz muita diferença 
+			em caso de internet explorer, usar o termo pragma <meta http-equiv="pragma"-->
+		 
+		 <meta http-equiv="" content="text/html; charset=ISO-8859-1" />
+		 <!-- indicando o padrão usado nos textos, sendo iso-8859-1 nesse caso.
+		 É importante saber a codificação do seu país ou usar um padrão mais universal. tem ansi, unicode e outros -->
+
+		 
+	<!-- inicio das tags de meta de informação sobre a página utilizadas pelo sistema de busca -->
+
+		 <meta name="author" content="jack_bauer"> <!-- o autor desta página -->
+		 
+		 <meta name="description" content="bem vindos ao meu portfolio! apresento um resumo das minhas qualificações e trabalhos que realizei nos ultimos anos. Bem legal" />
+		 <!-- aqui descrevemos o site. Será apresentado embaixo do titulo no resultado da busca do mecanismo de busca -->
+		 
+		 <meta name="keywords" content="cv, curriculo, programmer, css, java, cobol" />
+		 <!-- palavra chave, em tradução literal. são todas as palavras relacionadas no seu site, como por exemplo, android, windows, apple no site do olhar digital. o mecanismo de busca utiliza para sugerir ao usuário nos resultados, mas antes é feita uma trust scan para testar se essas keywords realmente se aplicam ao site em questão, se essas palavras estão no site -->
+		 
+ 		 <meta name="robots" content="INDEX, FOLLOW" />
+		 <!-- aqui definimos se queremos ou não que o site passe por varreduras de bots pelo mecanismo de busca, se autoriza guardar os dados dessa pagina ou não. são questões de privacidade e proteção de dados. pode ser index, noindex, follow, nofollow. Destinada aos web crawlers, disponível em robotstxt.org. Fiz minha pesquisa para entender melhor -->
+		 
+ 		 <meta name="googlebot" content="noarchive" />
+		 <!-- não arquivar essa pagina ou arquivar. não entendi muito bem se isso aqui faz parte dos cookies. armazenar informações no seu computador. Usada para salvar ou apresentar sua pagina.
+				What's good about Google caching your pages?	 
+							People can access your pages even if your site is down
+						Google also provides "text only" version of the page that gives an idea how it "sees" your page
+						https://www.searchenginejournal.com/		-->
+		 
+     <meta name="language" content="pt-br">
+	 <!-- idioma utilizado no site. para fins de pesquisa na internet. de acordo com sua localização, apresentar essa pagina para quem está no brasil, por exemplo -->
+	 
+	 
+	<!-- inicio das tags de meta de informação sobre a página utilizadas pelas redes sociais - facebook -->
+
+		 <meta property="og:title" content="" /> <!-- open graph - usada pelo facebook -->
+		 <meta property="og:description" content=""/>
+		 <meta property="og:type" content="" />
+		 <meta property="og:url" content="" />
+		 <meta property="og:image" content="" />
+		 <meta property="og:site_name" content="" /> <!-- informações de redes sociais e que auxiliam na divulgação da página lá -->
+		 
+	<!-- fim  das tags de meta de informação sobre a página -->
+ 
+		<script language="JavaScript" type="text/javascript">  <!--inicio do javascript interno-->
+		 				 
+		 				 var nome= "Bond";
+						 // apresentando uma variavel e o valor para a var nome, as strings entre aspas 
+		 				 
+						 window.alert("Bem vindo a página do "+nome+" !!");
+						 
+						 // indicando uma janela que deve ser mostrada ao abrir o site e o conteudo dessa janela em parentesses content as strings entre aspas, são textos com a adição incluindo a variavel nome que foi apresentada na linha acima 
+		 				 
+						 alert("James Bond!");
+						 
+						 // um alerta criado indicando o content a ser mostrado nas strings entre aspas para mostrar essa janela. parece uma mesma forma de fazer o modelo anterior com menos detalhes, a meu ver. Sem declaração de var name
+						 
+						 
+		
+		</script>
+			<!-- fim do Javascript interno -->
+
+	<!-- inicio do css interno para completar -->
+ 
+	<!-- aqui a tag style type="text/css" indica que vamos usar uma folha de estilo em cascata css -->
+ 
+ <style type="text/css"> 
+ 				
+			   /* formatação do corpo ou tag body */
+			   body /* o corpo da pagina sera editado aqui */
+			   
+			   {
+				  
+				  background-color: #cccccc; /* cor do plano de fundo */
+				  
+				  background-image:url(" fundo7.jpg "); /* imagem de fundo */
+				  
+				  background-attachment: fixed ;
+				  /* como o fundo se comporta e nesse caso está fixo */
+				  
+				  font-family: monospace; 
+				  /* tipo de fonte do corpo da pagina */
+				  
+				  font-size: 20px ;
+				  /* tamanho da fonte do corpo da pagina */
+				  
+				  color: #000000 ;
+				  /* cor da fonte do corpo de pagina */
+			    }
+				
+			   /* formatação da imagem ou tag img */
+			   img 
+				 
+				 {
+				 width: 200px   ;
+				 /* largura da imagem */
+				 
+				 height: 200px ;
+				 /* altura da imagem */
+				 
+				 border: 5px solid; 
+				 /* adicionamos uma borda com 5px e tipo solid */
+				 
+				 border-style: double;
+				 /* estilo da borda da imagem e pode ser dotted, dashed, double, groove, entre outras  */
+				 
+				 border-color: #cccc00;
+				 /* cor da borda dessa imagem */
+				 
+				 border-radius:40%;
+				 
+				 }
+				 
+			   /* formatação do heading 1 ou cabeçalho 1 */
+			   
+			   h1 /* vamos alterar os h1, cabeçalhos 1 */
+				 
+				 {
+				 color:#cc3333; /* cor da fonte */
+				 text-align: center ;
+				 /* alinhar o texto */
+				 
+				 }
+
+			   /* formatação do heading 2 ou cabeçalho 2 */
+			   h2
+				 {
+				 color:#ff3366; 
+				 /* cor da fonte */
+				 
+				 text-decoration: underline;/* adiciona uma decoração ao texto linkado, sendo overline, line-through, underline */
+				 
+				 text-align: left;
+				 /* alinhar o texto */
+				 
+				 }
+				 
+			   /* formatação do horizontal rule ou régua horizontal */
+			   
+			   hr
+				 
+				 {
+				 width: 80px ;/* largura da regua/rule horizontal */
+				 height: 10px ;/* altura da regua/rule horizontal */
+				 background-color:#ccff77 ;/* cor do fundo da regua/rule horizontal */
+				 
+				 }
+				 
+			   
+			   /*formatação em css para os links da página que são ancoras ou anchor*/
+			   
+			   a 
+			   /* vamos formatar textos com link */
+				
+				{
+				 color: #000000;
+				 /* cor da fonte */
+				 
+				 text-decoration: overline ;
+				 /* adiciona uma decoração ao texto linkado, sendo overline, line-through, underline */
+				 
+				 font-size: 20px ;
+				 /* tamanho da fonte */
+				 }
+				 
+			   /*formatação em css para os links ativados da página que são ancoras ou anchor*/
+				
+				a:hover
+				/* efeito ao passar o cursos sobre o link */
+				 
+				 {
+				 color:#cc66ff;
+				 /* cor ao passar o cursor sobre o link */
+				 
+				 text-decoration: underline ;
+				 /* adiciona uma decoração ao texto linkado quando passar o cursor sobre, sendo overline, line-through, underline */
+				 
+				 font-size: 30px ;
+				 /* tamanho da fonte ao passar o cursor sobre */
+				 
+				 }
+ 
+-->
+	 </style>	<!-- fim do css interno -->
+ 
+  </head>	<!-- aqui encerra a cabeça de pagina, informações em javascript, css, metadados foram definidas acima. Precisando alterar cores, fontes e bordas é só voltar e procurar qual linha mudar. Boa sorte! -->
+  
+	<body>
+	<!-- aqui está a estrutura da sua pagina. o corpo dela e contem o conteudo dos textos, links, imagens, mapas, formularios e embed de conteúdos de outros sites -->
+     
+		 <img src= "pug.jpg" alt="tenho fotos melhores mas essa é a que eu tinha agora">
+		 <!-- inserir uma imagem. image source, fonte de origem da sua imagem. onde está essa imagem -->
+		
+		 <h1>
+		 <!-- primeiro cabeçalho, header. h1 é o maior deles. pode ser h2 h3 h4 h5 h6 etc -->
+		    Currículo John Redfield Stark
+			
+		 </h1>
+		 
+		 <hr> <!-- horizontal rule ou régua horizontal -->
+		
+		 <h2>
+		 		 Dados Pessoais
+		 </h2>
+		
+		 <p style="color:#ffcc99; "><!-- iniciando um paragraph com um style. vamos estilizar esse elemento com a cor informada. Isso é um css inline-->
+		    Nome: 
+		 </p>
+		 
+		  <p style="">
+				John Redfield Stark
+			</p>
+			
+			 <p style="">
+			 		Endereço:
+			 </p>
+			
+			 <p style="">
+			 		Alameda borboleta, 1984. Vila Madalena. <br>
+					<!-- br quer dizer break row ou quebre a linha-->
+					Springfield - SP
+			 </p>
+			 		 <hr style=" background-color:#3399cc; "> 
+					 <!-- hr quer dizer horizontal rule ou régua horizontal com css inline alinhando a direita. vamos estilizar esse elemento com a cor powder blue e ele se diferencia dos outros, estamos aplicando css direto ao elemento -->
+		
+		 <h2><!-- iniciei um novo cabeçalho/header -->
+		 		 Dados Profissionais
+		 </h2>
+		 
+		 <p style="">
+		    Nome:
+		 </p>
+		 
+		  <p style="">
+				Xablau entretenimentos duvidosos
+			</p>
+			
+			 <p style="">
+			 		Endereço:
+			 </p>
+			 
+			 <p style="text-align:center;">
+			 		Rua Vergueiro, 4770 <br><!-- break row ou quebre a linha-->
+					São Paulo - SP
+			 </p>
+			
+			  <hr style=""> <!-- horizontal rule ou régua horizontal com css inline alinhando a esquerda-->
+		
+		 <h2>
+		 		 Meus links favoritos
+		 </h2>
+		 		
+				<!-- Aqui começa a lista com links que se abrem em uma nova janela. Crie sua própria lista!! -->
+		
+		<ol type="I" start="1"> <!-- lista ordenada do tipo numero romano iniciando pelo 1 -->
+		  
+			 <li> <!-- list item ou item da lista -->
+			    
+				<a href="http://www.boredpanda.com" target="_blank" title="este é um link para bored panda, tem coisas legais de design ...">
+				<!-- aqui indicamos o endereço do link e o texto do link. target/alvo da pagina e esta blank porque tem que abrir em uma nova aba -->
+				
+				Bored panda - not safe for work ...
+				
+					</a>
+			 </li>
+			 <li> <!-- list item ou item da lista -->
+			    <a href="http://www.techcrunch.com" target="_blank" title="este é um link para noiticias tech...">
+				
+				<!-- aqui indicamos o endereço do link e o texto do link. target/alvo da pagina e esta blank porque tem que abrir em uma nova aba  -->
+					     
+						 link para tech news ...
+					</a>
+			 </li>
+			  <li> <!-- list item ou item da lista -->
+			  
+			    <a href="http://www.gamespot.com" target="_blank" title="este é um link para site de games...">
+				<!-- aqui indicamos o endereço do link e o texto do link. target/alvo da pagina e esta blank porque tem que abrir em uma nova aba  -->
+				
+					      Falando de videogames ...
+					</a>
+			 </li>
+			 
+		 </ol>	<!-- encerrando a lista ordenada/ordered list -->
+			 
+			 <!-- Aqui vai o link  para email -->
+		   <p style=" text-align:center; ">
+		   <!-- css inline de alinhamento de texto -->
+          
+					<a href="mailto:dearmrcomputer@gmail.com" title="faça um lindo comentario ao Curriculo do James">
+					<!-- indicando um texto com link onde a referencia ancorada e um mail to com title. com o objetivo de enviar um email para entrar em contato -->
+					
+				        Entre em contato!
+				  </a>
+  
+  </body>
+  
+  <!--Close the main gate! I'm sorry Dave, I'm afraid I can't do that  -->
+
+  
+</html>
+
